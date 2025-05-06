@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Layout from '../components/Layout';
+import { Linkedin } from "lucide-react";
 
 const Contact: React.FC = () => {
   return (
@@ -23,7 +24,8 @@ const Contact: React.FC = () => {
           
           <ul className="space-y-2 mt-4">
             <li>
-              <a href="https://linkedin.com/in/alexmiller" className="link font-mono">
+              <a href="https://linkedin.com/in/caelumrose" className="link font-mono flex items-center gap-2">
+                <Linkedin size={18} />
                 LinkedIn
               </a>
             </li>

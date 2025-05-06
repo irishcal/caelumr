@@ -45,6 +45,14 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
               </li>
               <li>
                 <Link 
+                  to="/testimonials" 
+                  className={`hover:text-primary ${currentPage === 'testimonials' ? 'text-primary' : 'text-muted-foreground'}`}
+                >
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link 
                   to="/contact" 
                   className={`hover:text-primary ${currentPage === 'contact' ? 'text-primary' : 'text-muted-foreground'}`}
                 >

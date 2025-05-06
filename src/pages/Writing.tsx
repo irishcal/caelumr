@@ -12,51 +12,9 @@ interface Essay {
 const essays: Essay[] = [
   {
     id: 1,
-    title: "The New Enterprise Sales Playbook",
-    date: "May 1, 2025",
-    link: "#"
-  },
-  {
-    id: 2,
-    title: "Product-Led Growth: Beyond the Buzzword",
-    date: "April 15, 2025",
-    link: "#"
-  },
-  {
-    id: 3,
-    title: "Why Marketing-Sales Alignment Still Fails in 2025",
-    date: "March 22, 2025",
-    link: "#"
-  },
-  {
-    id: 4,
-    title: "Building a Metrics-Driven GTM Organization",
-    date: "February 10, 2025",
-    link: "#"
-  },
-  {
-    id: 5,
-    title: "The Evolving Role of the CRO",
-    date: "January 28, 2025",
-    link: "#"
-  },
-  {
-    id: 6,
-    title: "Channel Strategy for Complex B2B Products",
-    date: "December 12, 2024",
-    link: "#"
-  },
-  {
-    id: 7,
-    title: "Customer Acquisition Economics in a Down Market",
-    date: "November 5, 2024",
-    link: "#"
-  },
-  {
-    id: 8,
-    title: "Account-Based Marketing: A Tactical Guide",
-    date: "October 18, 2024",
-    link: "#"
+    title: "When an Entire Country Turns to Fintech: Ireland's Revolut Phenomenon",
+    date: "May 6, 2025",
+    link: "https://www.thisweekinfintech.com/when-an-entire-country-turns-to-fintech-irelands-revolut-phenomenon-2/"
   }
 ];
 
@@ -70,7 +28,12 @@ const Writing: React.FC = () => {
           {essays.map((essay) => (
             <li key={essay.id} className="essay-link py-4">
               <div className="flex flex-col md:flex-row md:justify-between">
-                <a href={essay.link} className="link text-lg">
+                <a 
+                  href={essay.link} 
+                  className="link text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {essay.title}
                 </a>
                 <span className="text-sm text-muted-foreground font-mono mt-1 md:mt-0">

@@ -19,13 +19,14 @@ const Index: React.FC = () => {
         <h2 className="text-xl font-mono mb-6 tracking-tight">Recent Writing</h2>
         <ul className="space-y-0">
           <li className="essay-link">
-            <a href="/writing" className="link">The New Enterprise Sales Playbook</a>
-          </li>
-          <li className="essay-link">
-            <a href="/writing" className="link">Product-Led Growth: Beyond the Buzzword</a>
-          </li>
-          <li className="essay-link">
-            <a href="/writing" className="link">Why Marketing-Sales Alignment Still Fails in 2025</a>
+            <a 
+              href="https://www.thisweekinfintech.com/when-an-entire-country-turns-to-fintech-irelands-revolut-phenomenon-2/" 
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              When an Entire Country Turns to Fintech: Ireland's Revolut Phenomenon
+            </a>
           </li>
         </ul>
         <div className="mt-6">

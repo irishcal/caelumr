@@ -16,11 +16,7 @@ const Index: React.FC = () => {
             </a>
           </li>
         </ul>
-        <div className="mt-6">
-          <a href="/writing" className="inline-block text-sm font-mono hover:underline">
-            View all essays →
-          </a>
-        </div>
+        
       </section>
     </Layout>;
 };

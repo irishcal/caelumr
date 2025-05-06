@@ -8,7 +8,7 @@ const Index: React.FC = () => {
       </section>
       
       <section className="section mt-16">
-        <h2 className="text-xl font-mono mb-6 tracking-tight font-extralight">Recent Writing</h2>
+        <h2 className="font-mono mb-6 tracking-tight text-lg font-extralight">Recent Writing</h2>
         <ul className="space-y-0">
           <li className="essay-link">
             <a href="https://www.thisweekinfintech.com/when-an-entire-country-turns-to-fintech-irelands-revolut-phenomenon-2/" className="link" target="_blank" rel="noopener noreferrer">

@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
       <div className="container">
         <header className="py-8 md:py-12">
           <div className="flex justify-between items-center">
-            <Link to="/" className="font-mono text-lg font-medium tracking-tight">Alex Miller</Link>
+            <Link to="/" className="font-mono text-lg font-medium tracking-tight">Caelum Rosenkranz</Link>
             <ThemeToggle />
           </div>
           <nav className="mt-8">
@@ -59,7 +59,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
         </main>
         <footer className="py-8 mt-16 border-t border-border text-sm text-muted-foreground">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-            <p>© {new Date().getFullYear()} Alex Miller</p>
+            <p>© {new Date().getFullYear()} Caelum Rosenkranz</p>
             <p className="mt-2 md:mt-0">Built with simplicity in mind</p>
           </div>
         </footer>

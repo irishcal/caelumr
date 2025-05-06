@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '../components/Layout';
 import { Card, CardContent } from "@/components/ui/card";
@@ -31,9 +30,6 @@ const About: React.FC = () => {
                 <li>
                   Appointed EMEA Partnerships Lead at This Week in Fintech, the global fintech newsletter and platform 
                   with over 150,000 subscribers.
-                </li>
-                <li>
-                  Joined Series A fintech Navro to help build out its Strategic Partnerships function.
                 </li>
               </ul>
             </CardContent>

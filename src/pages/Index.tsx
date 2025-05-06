@@ -7,7 +7,7 @@ const Index: React.FC = () => {
     <Layout currentPage="home">
       <section className="section prose-section">
         <h1 className="text-4xl md:text-5xl font-medium mb-6 leading-tight">
-          Hi, I'm Alex Miller, a GTM strategist and operator.
+          Hi, I'm Caelum Rosenkranz, a GTM strategist and operator.
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
           I help B2B tech companies build and execute go-to-market strategies 

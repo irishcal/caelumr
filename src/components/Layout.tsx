@@ -14,15 +14,15 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
       <div className="container">
         <header className="py-8 md:py-12">
           <div className="flex justify-between items-center">
-            <Link to="/" className="font-mono text-lg font-medium tracking-tight">Caelum Rosenkranz</Link>
+            <Link to="/" className="font-mono text-lg font-medium tracking-tight hover:text-accent-foreground transition-colors">Caelum Rosenkranz</Link>
             <ThemeToggle />
           </div>
           <nav className="mt-8">
-            <ul className="flex space-x-6 font-mono text-sm">
+            <ul className="flex flex-wrap space-x-4 md:space-x-6 font-mono text-sm">
               <li>
                 <Link 
                   to="/" 
-                  className={`hover:text-primary ${currentPage === 'home' ? 'text-primary' : 'text-muted-foreground'}`}
+                  className={`hover:text-primary relative px-1 ${currentPage === 'home' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
                   Home
                 </Link>
@@ -30,7 +30,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
               <li>
                 <Link 
                   to="/about" 
-                  className={`hover:text-primary ${currentPage === 'about' ? 'text-primary' : 'text-muted-foreground'}`}
+                  className={`hover:text-primary relative px-1 ${currentPage === 'about' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
                   About
                 </Link>
@@ -38,7 +38,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
               <li>
                 <Link 
                   to="/writing" 
-                  className={`hover:text-primary ${currentPage === 'writing' ? 'text-primary' : 'text-muted-foreground'}`}
+                  className={`hover:text-primary relative px-1 ${currentPage === 'writing' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
                   Writing
                 </Link>
@@ -46,7 +46,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
               <li>
                 <Link 
                   to="/testimonials" 
-                  className={`hover:text-primary ${currentPage === 'testimonials' ? 'text-primary' : 'text-muted-foreground'}`}
+                  className={`hover:text-primary relative px-1 ${currentPage === 'testimonials' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
                   Testimonials
                 </Link>
@@ -54,7 +54,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
               <li>
                 <Link 
                   to="/contact" 
-                  className={`hover:text-primary ${currentPage === 'contact' ? 'text-primary' : 'text-muted-foreground'}`}
+                  className={`hover:text-primary relative px-1 ${currentPage === 'contact' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
                   Contact
                 </Link>

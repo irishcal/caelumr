@@ -20,14 +20,16 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
           </div>
           <nav className="mt-8">
             <ul className={`flex ${isMobile ? 'overflow-x-auto pb-2 -mx-4 px-4' : ''} font-mono text-sm`}>
-              <li className="mr-4 md:mr-6 whitespace-nowrap">
-                <Link 
-                  to="/" 
-                  className={`hover:text-primary relative px-1 ${currentPage === 'home' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
-                >
-                  Home
-                </Link>
-              </li>
+              {!isMobile && (
+                <li className="mr-4 md:mr-6 whitespace-nowrap">
+                  <Link 
+                    to="/" 
+                    className={`hover:text-primary relative px-1 ${currentPage === 'home' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
+                  >
+                    Home
+                  </Link>
+                </li>
+              )}
               <li className="mr-4 md:mr-6 whitespace-nowrap">
                 <Link 
                   to="/about" 

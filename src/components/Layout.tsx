@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
             <ThemeToggle />
           </div>
           <nav className="mt-8">
-            <ul className="flex flex-wrap space-x-4 md:space-x-6 font-mono text-sm">
+            <ul className="flex flex-wrap gap-4 md:gap-6 font-mono text-sm">
               <li>
                 <Link 
                   to="/" 

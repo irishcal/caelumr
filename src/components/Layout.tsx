@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
       <div className="container">
         <header className="py-8 md:py-12">
           <div className="flex justify-between items-center">
-            <Link to="/" className="font-mono text-lg font-medium tracking-tight hover:text-accent-foreground transition-colors">Caelum Rosenkranz</Link>
+            <Link to="/" className="font-sans font-bold text-lg tracking-tight hover:text-accent-foreground transition-colors" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Caelum Rosenkranz</Link>
           </div>
           <nav className="mt-8">
             <ul className={`flex ${isMobile ? 'overflow-x-auto pb-2 -mx-4 px-4' : ''} font-mono text-sm`}>

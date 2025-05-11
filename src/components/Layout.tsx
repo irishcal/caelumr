@@ -19,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
             <Link to="/" className="font-sans font-bold text-lg tracking-tight hover:text-accent-foreground transition-colors" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Caelum Rosenkranz</Link>
           </div>
           <nav className="mt-8">
-            <ul className={`flex ${isMobile ? 'overflow-x-auto pb-2 -mx-4 px-4' : ''} font-mono text-sm`}>
+            <ul className={`flex ${isMobile ? 'overflow-x-auto pb-2 -mx-4 px-4' : ''} text-sm`} style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
               {!isMobile && (
                 <li className="mr-4 md:mr-6 whitespace-nowrap">
                   <Link 

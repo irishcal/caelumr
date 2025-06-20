@@ -71,7 +71,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
         <footer className="py-8 mt-16 border-t border-border text-sm text-muted-foreground">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <p>© {new Date().getFullYear()} Caelum Rosenkranz</p>
-            <p className="mt-2 md:mt-0">Built with simplicity in mind</p>
+            <p className="mt-2 md:mt-0">Vibe coded with simplicity in mind</p>
           </div>
         </footer>
       </div>

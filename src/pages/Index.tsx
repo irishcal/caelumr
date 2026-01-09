@@ -9,7 +9,7 @@ const Index: React.FC = () => {
     <Layout currentPage="home">
       <div className="relative">
         <section className="section prose-section">
-          <h1 className="text-3xl mb-6 leading-tight font-sans md:text-4xl bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent px-[3px] font-normal">Hi there! I'm Caelum Rosenkranz, a London based GTM strategist and operator.</h1>
+          <h1 className="text-3xl mb-6 leading-tight md:text-4xl bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent px-[3px] font-normal" style={{ fontFamily: 'Manrope, sans-serif' }}>Hi there! I'm Caelum Rosenkranz, a London based GTM strategist and operator.</h1>
           <p className="text-xl text-muted-foreground leading-relaxed md:text-xl font-light">I help growing companies with global ambitions create and execute go-to-market strategies to drive long-term growth.</p>
           <Button asChild className="mt-6">
             <Link to="/about">My Profile</Link>

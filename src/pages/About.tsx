@@ -39,6 +39,9 @@ const About: React.FC = () => {
                   Appointed EMEA Partnerships Lead at This Week in Fintech, the global fintech newsletter and platform 
                   with over 150,000 subscribers.
                 </li>
+                <li>
+                  <a href="https://youtu.be/0aFIhQcxEcg?t=20007" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">Closed the Fintech Stage</a> at Web Summit 2024, serving as host and moderator.
+                </li>
               </ul>
             </CardContent>
           </Card>
@@ -137,7 +140,7 @@ const About: React.FC = () => {
             <CardContent className="pt-6">
               <h2 className="text-2xl font-medium mb-4">2016</h2>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Scaled a small university society, The Food Society, to over 3,000 members, making it one of Ireland's largest within six months.</li>
+                <li>Scaled a small university society, The Food Society, <a href="https://universityobserver.ie/foodsoc-a-taste-of-ucds-freshest-society/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">to over 3,000 members</a>, making it one of Ireland's largest within six months.</li>
                 <li>
                   Pitched my second startup, Taskee, at Google HQ to a live audience of investors and journalists.
                 </li>

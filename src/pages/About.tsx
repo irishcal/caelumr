@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <h1 className="text-3xl md:text-4xl font-medium mb-8">Bio</h1>
       
       <div className="prose max-w-none space-y-6">
-        <p>Thanks for stopping by! I originally built this site many years ago to document some of the exciting projects I've been fortunate to work on. From launching startups to scaling global fintechs, it's been a great ride across London, Dublin, Berlin, Vancouver, and New York City.</p>
+        <p>Thanks for stopping by! From launching startups to scaling global fintechs, it's been a great ride across London, Dublin, Berlin, Vancouver, and New York City.</p>
         
         <p className="font-medium mt-8 mb-4">
           Here's a snapshot of that journey, starting with where I am today:

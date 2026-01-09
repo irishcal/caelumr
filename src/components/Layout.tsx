@@ -35,7 +35,7 @@ const Layout: React.FC<LayoutProps> = ({ children, currentPage }) => {
                   to="/about" 
                   className={`hover:text-primary relative px-1 ${currentPage === 'about' ? 'text-primary after:content-[""] after:absolute after:w-full after:h-0.5 after:bg-primary/30 after:bottom-0 after:left-0' : 'text-muted-foreground'}`}
                 >
-                  About
+                  Bio
                 </Link>
               </li>
               <li className="mr-4 md:mr-6 whitespace-nowrap">

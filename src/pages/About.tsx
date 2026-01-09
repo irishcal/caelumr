@@ -98,9 +98,9 @@ const About: React.FC = () => {
             <CardContent className="pt-6">
               <h2 className="text-2xl font-medium mb-4">2019</h2>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Won the President's Award at UCD - the university's highest student honour.</li>
+                <li>Won the <a href="https://www.linkedin.com/posts/caelumrose_it-was-an-absolute-privilege-to-receive-one-activity-6510864686156644352-oimS/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">President's Award</a> at UCD - the university's highest student honour.</li>
                 <li>
-                  Received an £8,000 High Potential Applicant Scholarship to the University of Edinburgh.
+                  Received a High Potential Applicant Scholarship to the University of Edinburgh.
                 </li>
                 <li>
                   Interned with Korn Ferry, the global organisational consulting firm.
@@ -145,7 +145,7 @@ const About: React.FC = () => {
                   Pitched my second startup, Taskee, at Google HQ to a live audience of investors and journalists.
                 </li>
                 <li>
-                  Won European Startup Weekend at Google Dublin.
+                  <a href="https://www.siliconrepublic.com/start-ups/taskee-startup-weekend-dublin" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">Came first place at Startup Weekend EMEA</a> at Google's HQ.
                 </li>
                 <li>Helped launch Tilt in Ireland, later acquired by Airbnb.</li>
                 <li>

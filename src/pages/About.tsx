@@ -15,6 +15,20 @@ const About: React.FC = () => {
         <div className="space-y-8 mt-6">
           <Card className="border-border">
             <CardContent className="pt-6">
+              <h2 className="text-2xl font-medium mb-4">2025</h2>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  Joined the team at Google Cloud in London, helping pioneering organisations in DeepTech, Life Sciences, and Quantum sectors, harness the power of Gemini and GCP.
+                </li>
+                <li>
+                  Became the Europe Lead at This Week in Fintech, managing our events, writers and relationships across the continent.
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="border-border">
+            <CardContent className="pt-6">
               <h2 className="text-2xl font-medium mb-4">2024</h2>
               <ul className="list-disc pl-5 space-y-2">
                 <li>

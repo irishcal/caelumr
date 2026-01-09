@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import { Card, CardContent } from "@/components/ui/card";
 const About: React.FC = () => {
   return <Layout currentPage="about">
-      <h1 className="text-3xl md:text-4xl font-medium mb-8">About</h1>
+      <h1 className="text-3xl md:text-4xl font-medium mb-8">Bio</h1>
       
       <div className="prose max-w-none space-y-6">
         <p>Thanks for stopping by! I originally built this site many years ago to document some of the exciting projects I've been fortunate to work on. From launching startups to scaling global fintechs, it's been a great ride across London, Dublin, Berlin, Vancouver, and New York City.</p>

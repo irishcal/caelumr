@@ -113,7 +113,6 @@ const About: React.FC = () => {
             <CardContent className="pt-6">
               <h2 className="text-2xl font-medium mb-4">2018</h2>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Worked for a summer in Marketing at Elsewhere, one of New York City's most forward thinking venues. </li>
                 <li>
                   Became N26's first Market Partner in Ireland, supporting the bank's market entry and early growth.
                 </li>
